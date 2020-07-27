@@ -1,2 +1,2 @@
-# JB-Terminal-bash-Sciprts
+# JB-Terminal-bash-Scripts
 #!bin/bash 😀
