@@ -1,1 +1,1 @@
-source ~/.custom_commands.sh
+source ~/.my_custom_commands.sh
