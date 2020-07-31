@@ -2,4 +2,4 @@
 ```bash
 #!/bin/bash 😀
 ```
-## My cumulative bash script repository.
+## My cumulative bash script repository.
