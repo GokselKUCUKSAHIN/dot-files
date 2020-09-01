@@ -23,7 +23,7 @@
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
 
-### 🗔 Windows
+### 🟦 Windows
   - 🚧 Currently Empty 🚫
 
 ### 🌎 UNIVERSAL
