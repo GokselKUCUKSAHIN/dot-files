@@ -2,11 +2,11 @@
 ```bash
 #!/bin/bash 😀
 ```
-## My cumulative bash script and repository.
-
-**Table of Content**
+## My cumulative bash script and Terminal Command repository.
 
 ## Useful Terminal Commands
+
+### OS X
 
 - Enable TRIM Support to 3rd Party SSDs.
   ```bash
@@ -17,6 +17,9 @@
   ```bash
   for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocalsnapshots $d; done
   ```
+  
+### UNIVERSAL
+
 - How to Exit VIM 😂
 
   **`Press ESC`**
