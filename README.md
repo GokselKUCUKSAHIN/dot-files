@@ -22,7 +22,10 @@
   
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
-  
+
+### 🗔 Windows
+  - 🚧 Currently Empty 🚫
+
 ### 🌎 UNIVERSAL
 
 - How to Exit VIM 😂
