@@ -17,7 +17,13 @@
   ```bash
   for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocalsnapshots $d; done
   ```
+- How to Exit VIM 😂
 
+  **`Press ESC`**
+  ```bash
+  :q!
+  ```
+  **`Enter!`**
 
 ## Dynamic Wallpaper
 
