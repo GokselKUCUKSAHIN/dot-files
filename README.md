@@ -1,8 +1,9 @@
-# JB-Terminal-bash-Scripts
+# JB-Terminal-bash-Scripts 📝
 ```bash
 #!/bin/bash 😀
 ```
-## My cumulative bash script and Terminal Command repository.
+
+### Welcome to my cumulative bash script and Terminal Command repository.
 
 ## Useful Terminal Commands
 
