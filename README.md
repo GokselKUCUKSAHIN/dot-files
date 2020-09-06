@@ -24,11 +24,10 @@
   - 🚧 Currently Empty 🚫
 
 ### 🔲 Windows
-  ```bash
-  certutil -hashfile file_name MD5
-  ```
-  - 🚧 Currently Empty 🚫
-
+  - CMD MD5 Checksum.
+    ```bash
+    certutil -hashfile file_name MD5
+    ```
 ### 🌎 UNIVERSAL
 
 - How to Exit VIM 😂
