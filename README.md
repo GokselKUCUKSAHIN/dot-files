@@ -24,6 +24,9 @@
   - 🚧 Currently Empty 🚫
 
 ### 🔲 Windows
+  ```bash
+  certutil -hashfile file_name MD5
+  ```
   - 🚧 Currently Empty 🚫
 
 ### 🌎 UNIVERSAL
