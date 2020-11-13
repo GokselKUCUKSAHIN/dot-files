@@ -21,3 +21,13 @@ function connectPi()
 		ssh pi@192.168.1.${param1}
 	fi  
 }
+
+function printTree()
+{
+	find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"
+}
+
+function mkcd()
+{
+	mkdir $1 && cd $1
+}
