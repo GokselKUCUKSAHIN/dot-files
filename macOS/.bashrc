@@ -8,9 +8,9 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
 #export PS1="\u > "
 #export PS1="\u \w > "
 #export PS1="\u @ \w > "
-
 export CLICOLOR=1
-export LSCOLORS=GxGxcxdxfxexexDxGxCxcx
+#export LS_COLORS="$(vivid generate snazzy)"
+export LSCOLORS=GxGxcxdxBxexexDxGxCxcx
 #export LSCOLORS=GxFxCxDxBxegedabagaced
 
 yellow=$(tput setaf 226);
@@ -29,7 +29,6 @@ print_before_the_prompt () {
     _usr=$USER
     dir=${dir/"$HOME"/"~"}
     printf "\n%s: (${green}%s${reset}) ${yellow}@ ${purple}%s\n" "$HOST_NAME" "$_usr" "$dir"
-
 }
 
 PROMPT_COMMAND=print_before_the_prompt
