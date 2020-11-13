@@ -1,0 +1,36 @@
+HOST_NAME="🍎MacBook Air"
+
+# Setting PATH for Python 3.8
+# The original version is saved in .bash_profile.pysave
+export PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+
+#export PS1="\e[0;33m\@ \u @ \e[m\e[0;34m\w\e[m > "
+#export PS1="\u > "
+#export PS1="\u \w > "
+#export PS1="\u @ \w > "
+
+export CLICOLOR=1
+export LSCOLORS=GxGxcxdxfxexexDxGxCxcx
+#export LSCOLORS=GxFxCxDxBxegedabagaced
+
+yellow=$(tput setaf 226);
+red=$(tput setaf 160);
+purple=$(tput setaf 177); #92-93
+green=$(tput setaf 154); 
+white=$(tput setaf 15);
+reset=$(tput sgr0);
+
+emojis=("👾" "🌐" "🌍" "💾" "🌚🌝" "🌎" "❄️ " "🕹 ")
+
+EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
+
+print_before_the_prompt () {
+    dir=$PWD
+    _usr=$USER
+    dir=${dir/"$HOME"/"~"}
+    printf "\n%s: (${green}%s${reset}) ${yellow}@ ${purple}%s\n" "$HOST_NAME" "$_usr" "$dir"
+
+}
+
+PROMPT_COMMAND=print_before_the_prompt
+PS1="$EMOJI\[${green}\] > \[${reset}\]"
