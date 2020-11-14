@@ -1,4 +1,4 @@
-# JB-Terminal-bash-Scripts 📝
+# Dot Files and Terminal-bash-Scripts 📝
 ```bash
 #!/bin/bash 😀
 ```
