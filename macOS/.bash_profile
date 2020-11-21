@@ -5,6 +5,7 @@ fi
 
 # Check "custom_command" file
 # if exist call it
-if [ -f ~/.custom_commands ]; then
+
+if [ -f ~/.custom_commands.sh ]; then
 	source ~/.custom_commands.sh
 fi
