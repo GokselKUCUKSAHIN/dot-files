@@ -1,0 +1,6 @@
+[user]
+	name = jellybeanci
+	email = gokselkucuksahin@gmail.com
+[core]
+	autocrlf = input
+	editor = nano
