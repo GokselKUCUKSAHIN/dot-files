@@ -23,7 +23,7 @@
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
 
-### 🔲 Windows
+### ![image](/res/win_logo_20.png) Windows
   - CMD MD5 Checksum.
     ```bash
     certutil -hashfile file_name MD5
