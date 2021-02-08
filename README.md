@@ -19,6 +19,16 @@
   ```bash
   for d in $(tmutil listlocalsnapshotdates | grep "-"); do sudo tmutil deletelocalsnapshots $d; done
   ```
+- Removing update Badges
+  ```bash
+  sudo softwareupdate --ignore "UPDATE_NAME e.g macOS BigSur"
+  defaults write com.apple.systempreferences AttentionPrefBundleIDs 0
+  killall Dock
+  ```
+  for Recover
+  ```bash
+  sudo softwareupdate --reset-ignored
+  ```
   
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
