@@ -29,6 +29,14 @@
   ```bash
   sudo softwareupdate --reset-ignored
   ```
+- OS X Mojave Auto Dark Theme
+  ```bash
+  ./darkmode.sh 0600 1830
+  ```
+  uninstall 
+  ```bash
+  ./darkmode.sh /u
+  ```
   
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
