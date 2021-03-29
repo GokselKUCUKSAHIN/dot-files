@@ -20,7 +20,7 @@ green=$(tput setaf 154);
 white=$(tput setaf 15);
 reset=$(tput sgr0);
 
-emojis=("👾" "🌐" "🌍" "💾" "🌚🌝" "🌎" "❄️ " "🕹 ")
+emojis=("👾" "🌐" "🌍" "💾" "🌚🌝" "🌎" "❄️" "🕹")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
