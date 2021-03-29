@@ -26,33 +26,31 @@ function openBishamonWithKey()
 		echo -n "Please Insert your key! and Press y to Continue ";
 		if asksure; then
   		echo "Okay, looking for the Key file..."
-			while ! [ -f "$key" ];
-			do
-        echo -n "# "
-        sleep 1
-      done
+			while ! [ -f "$key" ]; do
+      				echo -n "# "
+				sleep 1
+			done
 			openBishamonWithKey
 		else
-  		echo "Good Bye..."
+  			echo "Good Bye..."
 		fi
-  fi
+	fi
 }
 
-asksure() {
-while read -r -n 1 -s answer; do
-  if [[ $answer = [YyNn] ]]; then
-    [[ $answer = [Yy] ]] && retval=0
-    [[ $answer = [Nn] ]] && retval=1
-    break
-	else
-		retval=1
-	  break
-  fi
-done
-
-echo # just a final linefeed, optics...
-
-return $retval
+asksure()
+{
+	while read -r -n 1 -s answer; do
+		if [[ $answer = [YyNn] ]]; then
+			[[ $answer = [Yy] ]] && retval=0
+			[[ $answer = [Nn] ]] && retval=1
+			break
+		else
+			retval=1
+			break
+  		fi
+	done
+	echo # just a final linefeed, optics...
+	return $retval
 }
 
 function connectPi()
