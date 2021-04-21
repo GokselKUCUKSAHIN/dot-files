@@ -37,6 +37,10 @@
   ```bash
   ./darkmode.sh /u
   ```
+- Refresh Launchpad and Dock
+  ```bash
+  defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
+  ```
   
 ### 🐧 GNU/Linux
   - 🚧 Currently Empty 🚫
