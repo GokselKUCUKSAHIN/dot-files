@@ -20,7 +20,7 @@ green=$(tput setaf 154);
 white=$(tput setaf 15);
 reset=$(tput sgr0);
 
-emojis=("👾" "🌐" "🌍" "💾" "🌚🌝" "🌎" "❄️" "🕹")
+emojis=( "👾 " "🌐 " "🌍 " "💾 " "🌎 " "🌚🌝" "❄️  " "🕹  " )
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
@@ -33,3 +33,6 @@ print_before_the_prompt () {
 
 PROMPT_COMMAND=print_before_the_prompt
 PS1="$EMOJI\[${green}\] > \[${reset}\]"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
