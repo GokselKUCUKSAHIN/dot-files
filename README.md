@@ -43,7 +43,40 @@
   ```
   
 ### 🐧 GNU/Linux
-  - 🚧 Currently Empty 🚫
+
+- Install Node Version Manager and Node.js
+
+  ```bash
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  ```
+
+  ```bash
+   export NVM_DIR="$HOME/.nvm"
+   ```
+
+  ```bash
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+  ```
+
+  ```bash
+  command -v nvm
+  ```
+  ---
+- Install Node 17 via NVM
+
+  ```bash
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+  command -v nvm
+  nvm install 17.0.0
+  npm use 17
+  ```
+- Update _npm_ to latest version.
+  ```bash
+  npm i -g npm@latest
+  ```
+
 
 ### ![image](/res/win_logo_20.png) Windows
   - CMD MD5 Checksum.
