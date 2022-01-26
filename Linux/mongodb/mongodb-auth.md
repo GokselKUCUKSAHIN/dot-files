@@ -3,11 +3,10 @@
 ### Steps:
 1. `sudo apt-get install -y mongodb-org` _- in new terminal_
 
-2. `sudo mongod --port 27017 --dbpath /var/lib/mongodb`
 
 3. `mongo --port 27017` _- in new terminal_
 
-4. `use admin
+4. `use admin`
 
 5. As `@drmirror` said a user should have all 4 roles to be superuser
 
