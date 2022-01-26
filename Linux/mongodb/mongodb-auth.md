@@ -8,8 +8,6 @@
 
 4. `use admin`
 
-5. As `@drmirror` said a user should have all 4 roles to be superuser
-
 **For Mongo Version 2.**
 ```js
 db.createUser(
@@ -33,17 +31,17 @@ db.createUser(
        roles:["root"]
    })
 ```
-6. `sudo /etc/init.d/mongod stop` OR `sudo service mongod stop` _- in new terminal_
+5. `sudo /etc/init.d/mongod stop` OR `sudo service mongod stop` _- in new terminal_
 
-7. `sudo /etc/init.d/mongod start` OR `sudo service mongod start`
+6. `sudo /etc/init.d/mongod start` OR `sudo service mongod start`
 
-8. Restart your system
+7. Restart your system
 
-9. `sudo mongod --auth --port 27017 --dbpath /var/lib/mongodb` _- in new terminal_
+8. `sudo mongod --auth --port 27017 --dbpath /var/lib/mongodb` _- in new terminal_
 
-10. `mongo --port 27017 -u "tom" -p "jerry" --authenticationDatabase "admin"` _- in new terminal_
+9. `mongo --port 27017 -u "tom" -p "jerry" --authenticationDatabase "admin"` _- in new terminal_
 
-_Note : step 10 is **the most** important step._
+_Note : step 9 is **the most** important step._
 
 it will give Output on terminal like
 ```bash
