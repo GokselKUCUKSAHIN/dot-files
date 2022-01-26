@@ -4,10 +4,11 @@
 1. `sudo apt-get install -y mongodb-org` _- in new terminal_
 
 
-3. `mongo --port 27017` _- in new terminal_
+2. `mongo --port 27017` _- in new terminal_
 
-4. `use admin`
+3. `use admin`
 
+4.
 **For Mongo Version 2.**
 ```js
 db.createUser(
