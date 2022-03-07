@@ -1,4 +1,4 @@
-<img src="../res/npm_logo.png" width="250px" alt="npm Logo"/>
+<img src="../res/logo/npm_logo.png" width="250px" alt="npm Logo"/>
 
 ## For a user-scoped package, replace my-username with your username
 

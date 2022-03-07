@@ -78,7 +78,7 @@
   ```
 
 
-### ![image](/res/win_logo_20.png) Windows
+### ![image](res/icon/windows-icon/win_logo_20.png) Windows
   - CMD MD5 Checksum.
     ```bash
     certutil -hashfile file_name MD5
